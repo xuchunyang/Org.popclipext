@@ -1,0 +1,4 @@
+* PopClip Extension for org-mode
+
+This extension brings function like =M-x org-store-link= in Emacs but within
+PopClip. You need to run ~(require 'org-protocol)~ and start Emacs server.
