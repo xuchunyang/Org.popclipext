@@ -6,19 +6,20 @@
 	<array>
 		<dict>
 			<key>Shell Script File</key>
-			<string>org.sh</string>
+			<string>org-store-link.sh</string>
 			<key>Stoppable</key>
 			<true/>
 			<key>Title</key>
 			<string>store-link</string>
 			<key>Requirements</key>
 			<array>
+				<string>httpurl</string>
 				<string>option-org-store-link=1</string>
 			</array>
 		</dict>
 		<dict>
 			<key>Shell Script File</key>
-			<string>org.sh</string>
+			<string>org-capture.sh</string>
 			<key>Stoppable</key>
 			<true/>
 			<key>Title</key>
@@ -46,6 +47,8 @@
 			<string>org-capture</string>
 			<key>Option Type</key>
 			<string>boolean</string>
+			<key>Option Default Value</key>
+			<string>NO</string>
 		</dict>
 	</array>
 	<key>Credits</key>
